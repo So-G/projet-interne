@@ -22,15 +22,20 @@ const NewProject = () => {
         />
       </section>
 
-      <section className="flex-1 w-11/12 bg-lightGray overflow-auto ">
+      <section className="flex-1 w-11/12 bg-lightGray  ">
         <header>
-          <Menu as="div" className=" flex flex-row justify-end mt-10 mr-10">
-            <Avatar name="Lisa Peruzzo" className="userInitials" size="45" round={true} />
+          <Menu as="div" className=" flex flex-row justify-end mt-4 mr-10">
+            <Avatar
+              name="Solene Gerard"
+              className="userInitials !bg-purple"
+              size="50"
+              round={true}
+            />
           </Menu>
         </header>
-        <h1 className="uppercase text-2xl font-bold text-center">Gestion des projets</h1>
+        <h1 className="uppercase text-4xl font-bold text-center">Gestion des projets</h1>
         <div className="py-4 px-10">
-          <fieldset className="shadow border rounded-2xl border-purple">
+          <fieldset className="shadow border rounded-2xl border-purple mb-20">
             <div className="pl-4 py-5 ">
               <div className="grid grid-cols-4 gap-6 ">
                 <div className="col-span-1 ">

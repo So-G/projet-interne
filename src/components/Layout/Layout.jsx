@@ -49,7 +49,7 @@ const Layout = () => {
               type="button"
               value="Connexion"
               className="mt-14 py-1.5 text-lg border border-canaryYellow rounded-md bg-canaryYellow text-white w-44 mx-auto cursor-pointer"
-              onClick={() => navigate('/list')}
+              onClick={() => navigate('/newproject')}
             />
           </form>
         </div>

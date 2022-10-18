@@ -6,6 +6,11 @@ module.exports = {
       fontFamily: {
         sans: ['Lato']
       },
+
+      fontSize: {
+        '4xl': '40px'
+      },
+
       colors: {
         canaryYellow: '#FFA718',
         purple: '#AA00AD',
