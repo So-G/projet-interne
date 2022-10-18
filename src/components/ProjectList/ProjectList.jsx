@@ -6,12 +6,13 @@ import toggle from '../../assets/svg/clicker.svg'
 import disconnect from '../../assets/svg/disconnect.svg'
 
 const ProjectList = () => {
+  console.log('bibi')
   return (
     <main className="relative h-full w-full flex flex-col lg:flex-row">
       <section className="h-[11.25rem] md:h-[19.75rem] lg:h-full">
         <header>
           <Menu as="div" className="absolute top-4 right-4">
-            <Avatar name="Lisa Peruzzo" className="userInitials" size="45" round={true} />
+            <Avatar name="Solene Gerard" className="userInitials" size="45" round={true} />
           </Menu>
         </header>
         <img className="h-full w-full object-cover" src={sidebar} alt="backgroundImage" />

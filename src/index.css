@@ -17,3 +17,7 @@ body {
 .gradient {
   background: linear-gradient(270deg, #aa00ad -7.71%, #39438b 110.92%);
 }
+
+.userInitials {
+  background-color: #39438b;
+}

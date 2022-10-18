@@ -9,7 +9,7 @@ import bookmark from '../assets/svg/bookmark.svg'
 import plane from '../assets/svg/plane.svg'
 import trash from '../assets/svg/trash-solid.svg'
 
-const TestGrid = () => {
+const NewProject = () => {
   const navigate = useNavigate()
   return (
     <main className="relative h-full w-full flex flex-row">
@@ -121,7 +121,7 @@ const TestGrid = () => {
                 </div>
                 <div className="col-span-3 col-start-2 mx-12">
                   <button
-                    type="submit"
+                    onClick={() => console.log('Delete')}
                     className="inline-flex text-center items-center px-4 py-2 border border-fuchsia shadow-sm text-lg font-medium rounded-xl text-fuchsia bg-white"
                   >
                     <img className="-ml-1 mr-2 h-5 w-5 text-fuchsia " src={trash} alt="trash" />{' '}
@@ -132,7 +132,7 @@ const TestGrid = () => {
                   <div className="-mt-20 pl-2 py-3 text-right mx-12">
                     <div className="flex-1 space-x-8 ">
                       <button
-                        onClick={() => console.log('Supp')}
+                        onClick={() => console.log('Save')}
                         id="saveButton"
                         className="ml-24 inline-flex items-center px-4 py-2 border border-fuchsia shadow-sm text-lg font-medium rounded-xl text-fuchsia bg-white"
                       >
@@ -141,9 +141,8 @@ const TestGrid = () => {
                       </button>
 
                       <button
-                        type="submit"
                         name="sendButton"
-                        onClick={() => console.log('ehhe')}
+                        onClick={() => console.log('Send')}
                         id={'sendQuoteButton'}
                         className="w-36 inline-flex items-center pl-6 pr-4 py-2 border border-fuchsia shadow-sm text-lg font-medium rounded-xl text-white bg-fuchsia"
                       >
@@ -163,4 +162,4 @@ const TestGrid = () => {
   )
 }
 
-export default TestGrid
+export default NewProject
