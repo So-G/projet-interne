@@ -4,12 +4,12 @@ const LeftCol = () => {
   return (
     <>
       <div className="py-3  flex justify-between border border-purple border-t-0 border-l-0">
-        <label className="col-span-1 mt-1 ml-2 text-purple  text-lg uppercase font-bold text-left overflow-auto">
+        <label className="col-span-1 mt-2 ml-3 text-purple  text-lg uppercase font-bold text-left overflow-auto">
           Projets{' '}
         </label>
-        <div className="gradient mt-1 mr-4  w-8 h-8 cursor-pointer text-xl rounded-md  text-white text-center justify-center">
+        <button className="gradient mt-2 mr-4  w-8 h-8 cursor-pointer text-xl rounded-md  text-white text-center justify-center" onClick={() => alert('Vous allez créer un nouveau projet')}>
           +
-        </div>
+        </button>
       </div>
       <div className="col-span-3 col-start-2 flex justify-between">
         <h1 className="ml-8 w-fit bg-veryLightPurple text-lightPink items-center text-2xl font-bold uppercase my-4 py-1 px-4">
@@ -22,7 +22,7 @@ const LeftCol = () => {
           </div>
         </div>
       </div>
-      <ul className="col-span-1 col-start-1 ml-2 border border-r-purple border-t-0 border-l-0 ">
+      <ul className="col-span-1 col-start-1 ml-4 border border-r-purple border-t-0 border-l-0 ">
         <li className="text-purple text-md py-4 w-fit cursor-pointer">Nouveau Projet</li>
         <li className="text-sm py-1 cursor-pointer">Delt'App</li>
         <li className="text-sm py-1">Design System</li>

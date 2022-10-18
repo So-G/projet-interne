@@ -1,12 +1,9 @@
 {
   "name": "projet-interne-demo-vicat",
-  "homepage": "https://so-g.github.io/projet-interne",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "test:cov": "react-scripts test --coverage ."
@@ -17,11 +14,7 @@
     "tailwindcss": "^3.1.8"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.2.0",
-    "@fortawesome/free-solid-svg-icons": "^6.2.0",
-    "@fortawesome/react-fontawesome": "^0.2.0",
     "@headlessui/react": "^1.7.3",
-    "@heroicons/react": "^2.0.12",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "gh-pages": "^4.0.0",
