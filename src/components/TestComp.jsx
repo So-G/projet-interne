@@ -24,7 +24,7 @@ const NewProject = () => {
         />
       </section>
 
-      <section className="flex-1 w-11/12 bg-lightGray  ">
+      <section className="flex-1 w-11/12 bg-lightGray overflow-scroll  ">
         <header>
           <Menu as="div" className=" flex flex-row justify-end mt-4 mr-10">
             <Avatar

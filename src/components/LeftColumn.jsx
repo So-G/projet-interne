@@ -3,16 +3,16 @@ import toggle from '../assets/svg/clicker.svg'
 const LeftCol = () => {
   return (
     <>
-      <div className="py-3  flex justify-between border border-purple ">
+      <div className="py-3  flex justify-between border border-purple border-t-0 border-l-0">
         <label className="col-span-1 mt-1 ml-2 text-purple  text-lg uppercase font-bold text-left overflow-auto">
           Projets{' '}
         </label>
-        <div className="gradient mt-1 mr-4 w-8 cursor-pointer text-xl rounded-md  text-white text-center align-center">
+        <div className="gradient mt-1 mr-4  w-8 h-8 cursor-pointer text-xl rounded-md  text-white text-center justify-center">
           +
         </div>
       </div>
       <div className="col-span-3 col-start-2 flex justify-between">
-        <h1 className="ml-8 w-fit bg-veryLightPurple text-lightPink items-center text-2xl font-bold uppercase my-4 py-1px-4">
+        <h1 className="ml-8 w-fit bg-veryLightPurple text-lightPink items-center text-2xl font-bold uppercase my-4 py-1 px-4">
           Nouveau Projet
         </h1>
         <div className="col-span-1 pt-3">

@@ -22,6 +22,22 @@ const RightCol = () => {
             Interne{' '}
           </button>
         </div>
+        <div className="col-span-2 col-start-1">
+          <div className="py-3  flex space-x-60 mx-12">
+            <h2
+              className="text-lightPink text-xl 
+                    uppercase  "
+            >
+              Sous Catégories
+            </h2>
+            <h2
+              className="text-lightPink text-xl 
+                    uppercase  "
+            >
+              Description
+            </h2>
+          </div>
+        </div>
       </div>
     </>
   )
